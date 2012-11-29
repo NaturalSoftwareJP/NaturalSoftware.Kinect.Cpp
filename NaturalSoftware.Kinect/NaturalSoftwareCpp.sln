@@ -1,0 +1,69 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NaturalSoftware.Kinect.TestApp", "NaturalSoftware.Kinect.TestApp\NaturalSoftware.Kinect.TestApp.vcxproj", "{801275E8-EA3A-464C-B9A0-F346A92B1CC9}"
+	ProjectSection(ProjectDependencies) = postProject
+		{6FCE003D-D557-4DF5-ADC8-7ADE8DE9AF3A} = {6FCE003D-D557-4DF5-ADC8-7ADE8DE9AF3A}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NaturalSoftware.Kinect", "NaturalSoftware.Kinect\NaturalSoftware.Kinect.vcxproj", "{6FCE003D-D557-4DF5-ADC8-7ADE8DE9AF3A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NaturalSoftware.Kinect.Test", "NaturalSoftware.Kinect.Test\NaturalSoftware.Kinect.Test.vcxproj", "{A897E9EF-D044-45B4-965A-59A64CC666D5}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NaturalSoftware.Kinect.FaceTracking", "NaturalSoftware.Kinect.FaceTracking\NaturalSoftware.Kinect.Toolkit.FaceTraking.vcxproj", "{DECB0DD3-92A1-4D9A-B152-D17BEB384074}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 5
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://kaorun55.tfspreview.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = NaturalSoftware.Kinect.TestApp\\NaturalSoftware.Kinect.TestApp.vcxproj
+		SccProjectName1 = NaturalSoftware.Kinect.TestApp
+		SccLocalPath1 = NaturalSoftware.Kinect.TestApp
+		SccProjectUniqueName2 = NaturalSoftware.Kinect\\NaturalSoftware.Kinect.vcxproj
+		SccProjectName2 = NaturalSoftware.Kinect
+		SccLocalPath2 = NaturalSoftware.Kinect
+		SccProjectUniqueName3 = NaturalSoftware.Kinect.Test\\NaturalSoftware.Kinect.Test.vcxproj
+		SccProjectName3 = NaturalSoftware.Kinect.Test
+		SccLocalPath3 = NaturalSoftware.Kinect.Test
+		SccProjectUniqueName4 = NaturalSoftware.Kinect.FaceTracking\\NaturalSoftware.Kinect.Toolkit.FaceTraking.vcxproj
+		SccProjectName4 = NaturalSoftware.Kinect.FaceTracking
+		SccLocalPath4 = NaturalSoftware.Kinect.FaceTracking
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug vc100|Win32 = Debug vc100|Win32
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{801275E8-EA3A-464C-B9A0-F346A92B1CC9}.Debug vc100|Win32.ActiveCfg = Debug vc100|Win32
+		{801275E8-EA3A-464C-B9A0-F346A92B1CC9}.Debug|Win32.ActiveCfg = Debug|Win32
+		{801275E8-EA3A-464C-B9A0-F346A92B1CC9}.Debug|Win32.Build.0 = Debug|Win32
+		{801275E8-EA3A-464C-B9A0-F346A92B1CC9}.Release|Win32.ActiveCfg = Release|Win32
+		{801275E8-EA3A-464C-B9A0-F346A92B1CC9}.Release|Win32.Build.0 = Release|Win32
+		{6FCE003D-D557-4DF5-ADC8-7ADE8DE9AF3A}.Debug vc100|Win32.ActiveCfg = Debug vc100|Win32
+		{6FCE003D-D557-4DF5-ADC8-7ADE8DE9AF3A}.Debug vc100|Win32.Build.0 = Debug vc100|Win32
+		{6FCE003D-D557-4DF5-ADC8-7ADE8DE9AF3A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{6FCE003D-D557-4DF5-ADC8-7ADE8DE9AF3A}.Debug|Win32.Build.0 = Debug|Win32
+		{6FCE003D-D557-4DF5-ADC8-7ADE8DE9AF3A}.Release|Win32.ActiveCfg = Release|Win32
+		{6FCE003D-D557-4DF5-ADC8-7ADE8DE9AF3A}.Release|Win32.Build.0 = Release|Win32
+		{A897E9EF-D044-45B4-965A-59A64CC666D5}.Debug vc100|Win32.ActiveCfg = Debug vc100|Win32
+		{A897E9EF-D044-45B4-965A-59A64CC666D5}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A897E9EF-D044-45B4-965A-59A64CC666D5}.Debug|Win32.Build.0 = Debug|Win32
+		{A897E9EF-D044-45B4-965A-59A64CC666D5}.Release|Win32.ActiveCfg = Release|Win32
+		{A897E9EF-D044-45B4-965A-59A64CC666D5}.Release|Win32.Build.0 = Release|Win32
+		{DECB0DD3-92A1-4D9A-B152-D17BEB384074}.Debug vc100|Win32.ActiveCfg = Debug vc100|Win32
+		{DECB0DD3-92A1-4D9A-B152-D17BEB384074}.Debug vc100|Win32.Build.0 = Debug vc100|Win32
+		{DECB0DD3-92A1-4D9A-B152-D17BEB384074}.Debug vc100|Win32.Deploy.0 = Debug vc100|Win32
+		{DECB0DD3-92A1-4D9A-B152-D17BEB384074}.Debug|Win32.ActiveCfg = Debug|Win32
+		{DECB0DD3-92A1-4D9A-B152-D17BEB384074}.Debug|Win32.Build.0 = Debug|Win32
+		{DECB0DD3-92A1-4D9A-B152-D17BEB384074}.Debug|Win32.Deploy.0 = Debug|Win32
+		{DECB0DD3-92A1-4D9A-B152-D17BEB384074}.Release|Win32.ActiveCfg = Release|Win32
+		{DECB0DD3-92A1-4D9A-B152-D17BEB384074}.Release|Win32.Build.0 = Release|Win32
+		{DECB0DD3-92A1-4D9A-B152-D17BEB384074}.Release|Win32.Deploy.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
