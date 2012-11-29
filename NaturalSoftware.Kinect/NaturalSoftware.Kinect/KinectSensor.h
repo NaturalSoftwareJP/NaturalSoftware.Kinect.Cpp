@@ -33,7 +33,13 @@ namespace NaturalSoftware { namespace Kinect {
 
     public:
 
+        KinectSensor();
 	    ~KinectSensor();
+    
+        void CreateInstance( int index )
+        {
+            ERROR_CHECK( ::NuiCreateSensorByIndex( index, &kinect_ ) );
+        }
 
         INuiSensor* operator -> () const
         {
@@ -81,15 +87,6 @@ namespace NaturalSoftware { namespace Kinect {
         }
 
         static KinectSensorCollenction& KinectSensors();
-
-    private:
-
-        KinectSensor();
-    
-        void CreateInstance( int index )
-        {
-            ERROR_CHECK( ::NuiCreateSensorByIndex( index, &kinect_ ) );
-        }
 
     private:
 

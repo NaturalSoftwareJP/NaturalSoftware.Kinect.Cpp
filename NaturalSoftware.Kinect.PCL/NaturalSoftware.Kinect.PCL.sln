@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NaturalSoftware.Kinect.PCL", "NaturalSoftware.Kinect.PCL\NaturalSoftware.Kinect.PCL.vcxproj", "{B53BD5A0-B44C-44A8-A329-A3AFEA86D0D5}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NaturalSoftware.Kinect", "..\NaturalSoftware.Kinect\NaturalSoftware.Kinect\NaturalSoftware.Kinect.vcxproj", "{6FCE003D-D557-4DF5-ADC8-7ADE8DE9AF3A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NaturalSoftware.Kinect.PCL.TestApp", "NaturalSoftware.Kinect.PCL.TestApp\NaturalSoftware.Kinect.PCL.TestApp.vcxproj", "{73F8DB92-3DFA-40BC-AFBF-D0F9497E4FC5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug vc100|Win32 = Debug vc100|Win32
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B53BD5A0-B44C-44A8-A329-A3AFEA86D0D5}.Debug vc100|Win32.ActiveCfg = Debug vc100|Win32
+		{B53BD5A0-B44C-44A8-A329-A3AFEA86D0D5}.Debug vc100|Win32.Build.0 = Debug vc100|Win32
+		{B53BD5A0-B44C-44A8-A329-A3AFEA86D0D5}.Debug vc100|Win32.Deploy.0 = Debug vc100|Win32
+		{B53BD5A0-B44C-44A8-A329-A3AFEA86D0D5}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B53BD5A0-B44C-44A8-A329-A3AFEA86D0D5}.Debug|Win32.Build.0 = Debug|Win32
+		{B53BD5A0-B44C-44A8-A329-A3AFEA86D0D5}.Debug|Win32.Deploy.0 = Debug|Win32
+		{B53BD5A0-B44C-44A8-A329-A3AFEA86D0D5}.Release|Win32.ActiveCfg = Release|Win32
+		{B53BD5A0-B44C-44A8-A329-A3AFEA86D0D5}.Release|Win32.Build.0 = Release|Win32
+		{B53BD5A0-B44C-44A8-A329-A3AFEA86D0D5}.Release|Win32.Deploy.0 = Release|Win32
+		{6FCE003D-D557-4DF5-ADC8-7ADE8DE9AF3A}.Debug vc100|Win32.ActiveCfg = Debug vc100|Win32
+		{6FCE003D-D557-4DF5-ADC8-7ADE8DE9AF3A}.Debug vc100|Win32.Build.0 = Debug vc100|Win32
+		{6FCE003D-D557-4DF5-ADC8-7ADE8DE9AF3A}.Debug vc100|Win32.Deploy.0 = Debug vc100|Win32
+		{6FCE003D-D557-4DF5-ADC8-7ADE8DE9AF3A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{6FCE003D-D557-4DF5-ADC8-7ADE8DE9AF3A}.Debug|Win32.Build.0 = Debug|Win32
+		{6FCE003D-D557-4DF5-ADC8-7ADE8DE9AF3A}.Debug|Win32.Deploy.0 = Debug|Win32
+		{6FCE003D-D557-4DF5-ADC8-7ADE8DE9AF3A}.Release|Win32.ActiveCfg = Release|Win32
+		{6FCE003D-D557-4DF5-ADC8-7ADE8DE9AF3A}.Release|Win32.Build.0 = Release|Win32
+		{6FCE003D-D557-4DF5-ADC8-7ADE8DE9AF3A}.Release|Win32.Deploy.0 = Release|Win32
+		{73F8DB92-3DFA-40BC-AFBF-D0F9497E4FC5}.Debug vc100|Win32.ActiveCfg = Debug vc100|Win32
+		{73F8DB92-3DFA-40BC-AFBF-D0F9497E4FC5}.Debug vc100|Win32.Build.0 = Debug vc100|Win32
+		{73F8DB92-3DFA-40BC-AFBF-D0F9497E4FC5}.Debug vc100|Win32.Deploy.0 = Debug vc100|Win32
+		{73F8DB92-3DFA-40BC-AFBF-D0F9497E4FC5}.Debug|Win32.ActiveCfg = Debug|Win32
+		{73F8DB92-3DFA-40BC-AFBF-D0F9497E4FC5}.Debug|Win32.Build.0 = Debug|Win32
+		{73F8DB92-3DFA-40BC-AFBF-D0F9497E4FC5}.Debug|Win32.Deploy.0 = Debug|Win32
+		{73F8DB92-3DFA-40BC-AFBF-D0F9497E4FC5}.Release|Win32.ActiveCfg = Release|Win32
+		{73F8DB92-3DFA-40BC-AFBF-D0F9497E4FC5}.Release|Win32.Build.0 = Release|Win32
+		{73F8DB92-3DFA-40BC-AFBF-D0F9497E4FC5}.Release|Win32.Deploy.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
